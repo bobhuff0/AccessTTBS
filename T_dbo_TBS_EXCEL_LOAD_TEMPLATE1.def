@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TableDef name="dbo_TBS_EXCEL_LOAD_TEMPLATE1" foreign="False">
+  <Properties/>
+  <SQL>CREATE TABLE [dbo_TBS_EXCEL_LOAD_TEMPLATE1] (
+[TBS_BOOK_BAL_FROM_GL_H19] DOUBLE,
+[TBS_CATEGORY_D10] TEXT (50),
+[TBS_YEAR_END_D3] TEXT (50),
+[TBS_COMPANY_NAME_D5] TEXT (50),
+[TBS_CORPTAX_CODE_D7] TEXT (50),
+[TBS_GL_ACCOUNT_D12] TEXT (255),
+[TBS_M1_CORP_TAX_ADJ_PROV_H34_BOX_B] DOUBLE,
+[TBS_M1_CORP_TAX_ADJ_TAX_RETURN_F34_BOX_C] DOUBLE,
+[TBS_OTHER_ADJS_F39_BOX_D_1] DOUBLE,
+[TBS_OTHER_ADJS_F41_BOX_D_2] DOUBLE,
+[TBS_OTHER_ADJS_F43_BOX_D_3] DOUBLE,
+[TBS_COMPUTED_TAX_BASIS_H21_BOX_E] DOUBLE,
+[TBS_DEFFERED_BALANCE_F45] DOUBLE,
+[TBS_DEFERRED_BALANCE_H23_BOX] DOUBLE);</SQL>
+  <Attributes value="0">
+    <dbHiddenObject value="False"/>
+    <dbAttachExclusive value="False"/>
+    <dbAttachSavePWD value="False"/>
+    <dbAttachedODBC value="False"/>
+    <dbAttachedTable value="False"/>
+    <dbSystemObject value="False"/>
+  </Attributes>
+  <FieldDefs>
+    <Field_0 name="TBS_BOOK_BAL_FROM_GL_H19">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_BOOK_BAL_FROM_GL_H19"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_BOOK_BAL_FROM_GL_H19"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_0>
+    <Field_1 name="TBS_CATEGORY_D10">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="TBS_CATEGORY_D10"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
+      <Size name="Size" type="4" value="50"/>
+      <SourceField name="SourceField" type="12" value="TBS_CATEGORY_D10"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_1>
+    <Field_2 name="TBS_YEAR_END_D3">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="TBS_YEAR_END_D3"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
+      <Size name="Size" type="4" value="50"/>
+      <SourceField name="SourceField" type="12" value="TBS_YEAR_END_D3"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_2>
+    <Field_3 name="TBS_COMPANY_NAME_D5">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="TBS_COMPANY_NAME_D5"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="3"/>
+      <Size name="Size" type="4" value="50"/>
+      <SourceField name="SourceField" type="12" value="TBS_COMPANY_NAME_D5"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_3>
+    <Field_4 name="TBS_CORPTAX_CODE_D7">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="TBS_CORPTAX_CODE_D7"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="4"/>
+      <Size name="Size" type="4" value="50"/>
+      <SourceField name="SourceField" type="12" value="TBS_CORPTAX_CODE_D7"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_4>
+    <Field_5 name="TBS_GL_ACCOUNT_D12">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="TBS_GL_ACCOUNT_D12"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="5"/>
+      <Size name="Size" type="4" value="255"/>
+      <SourceField name="SourceField" type="12" value="TBS_GL_ACCOUNT_D12"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_5>
+    <Field_6 name="TBS_M1_CORP_TAX_ADJ_PROV_H34_BOX_B">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_M1_CORP_TAX_ADJ_PROV_H34_BOX_B"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="6"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_M1_CORP_TAX_ADJ_PROV_H34_BOX_B"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_6>
+    <Field_7 name="TBS_M1_CORP_TAX_ADJ_TAX_RETURN_F34_BOX_C">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_M1_CORP_TAX_ADJ_TAX_RETURN_F34_BOX_C"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="7"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_M1_CORP_TAX_ADJ_TAX_RETURN_F34_BOX_C"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_7>
+    <Field_8 name="TBS_OTHER_ADJS_F39_BOX_D_1">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_OTHER_ADJS_F39_BOX_D_1"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="8"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_OTHER_ADJS_F39_BOX_D_1"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_8>
+    <Field_9 name="TBS_OTHER_ADJS_F41_BOX_D_2">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_OTHER_ADJS_F41_BOX_D_2"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="9"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_OTHER_ADJS_F41_BOX_D_2"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_9>
+    <Field_10 name="TBS_OTHER_ADJS_F43_BOX_D_3">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_OTHER_ADJS_F43_BOX_D_3"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="10"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_OTHER_ADJS_F43_BOX_D_3"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_10>
+    <Field_11 name="TBS_COMPUTED_TAX_BASIS_H21_BOX_E">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_COMPUTED_TAX_BASIS_H21_BOX_E"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="11"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_COMPUTED_TAX_BASIS_H21_BOX_E"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_11>
+    <Field_12 name="TBS_DEFFERED_BALANCE_F45">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_DEFFERED_BALANCE_F45"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="12"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_DEFFERED_BALANCE_F45"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_12>
+    <Field_13 name="TBS_DEFERRED_BALANCE_H23_BOX">
+      <Value name="Value" type="20"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="28"/>
+      <Type name="Type" type="3" value="20"/>
+      <Name name="Name" type="12" value="TBS_DEFERRED_BALANCE_H23_BOX"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="13"/>
+      <Size name="Size" type="4" value="16"/>
+      <SourceField name="SourceField" type="12" value="TBS_DEFERRED_BALANCE_H23_BOX"/>
+      <SourceTable name="SourceTable" type="12" value="dbo_TBS_EXCEL_LOAD_TEMPLATE1"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="20"/>
+      <VisibleValue name="VisibleValue" type="20"/>
+    </Field_13>
+  </FieldDefs>
+</TableDef>

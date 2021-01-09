@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TableDef name="QALL" foreign="False">
+  <Properties/>
+  <SQL>CREATE TABLE [QALL] (
+[Company] TEXT (255),
+[Acct #] DOUBLE,
+[Account Description] TEXT (255),
+[SumOf%3CA%3E 12%2F31%2F2006 DEFERRED BALANCE] DOUBLE,
+[SumOf%3CB%3E 12%2F31%2F2007 PROVISION SCHEDULE M] DOUBLE,
+[SumOf%3CC%3E 12%2F31%2F2007 DEFERRED PER PROVISION] DOUBLE,
+[SumOf%3CD%3E 12%2F31%2F2007 TAX RETURN SCHEDULE M] DOUBLE,
+[SumOf%3CE%3E 12%2F31%2F2007 TRUE-UP] DOUBLE,
+[SumOf%3CF%3E OTHER ADJUSTMENTS%2FTRANSFERS] DOUBLE,
+[SumOf%3CG%3E 12%2F31%2F2007 ROLLED DEFERRED] DOUBLE,
+[SumOf%3CH%3E 12%2F31%2F2007 TAX BASIS] DOUBLE,
+[SumOf%3CI%3E 12%2F31%2F2007 BOOK BASIS] DOUBLE,
+[SumOf%3CJ%3E 12%2F31%2F2007 DEFERRED] DOUBLE,
+[SumOf%3CK%3E DIFFERENCE] DOUBLE);</SQL>
+  <Attributes value="0">
+    <dbHiddenObject value="False"/>
+    <dbAttachExclusive value="False"/>
+    <dbAttachSavePWD value="False"/>
+    <dbAttachedODBC value="False"/>
+    <dbAttachedTable value="False"/>
+    <dbSystemObject value="False"/>
+  </Attributes>
+  <FieldDefs>
+    <Field_0 name="Company">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="Company"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
+      <Size name="Size" type="4" value="255"/>
+      <SourceField name="SourceField" type="12" value="Company"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_0>
+    <Field_1 name="Acct #">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="Acct #"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Acct #"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_1>
+    <Field_2 name="Account Description">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="Account Description"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="3"/>
+      <Size name="Size" type="4" value="255"/>
+      <SourceField name="SourceField" type="12" value="Account Description"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+    </Field_2>
+    <Field_3 name="SumOf&lt;A&gt; 12/31/2006 DEFERRED BALANCE">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;A&gt; 12/31/2006 DEFERRED BALANCE"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="4"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;A&gt; 12/31/2006 DEFERRED BALANCE"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_3>
+    <Field_4 name="SumOf&lt;B&gt; 12/31/2007 PROVISION SCHEDULE M">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;B&gt; 12/31/2007 PROVISION SCHEDULE M"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="5"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;B&gt; 12/31/2007 PROVISION SCHEDULE M"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_4>
+    <Field_5 name="SumOf&lt;C&gt; 12/31/2007 DEFERRED PER PROVISION">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;C&gt; 12/31/2007 DEFERRED PER PROVISION"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="6"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;C&gt; 12/31/2007 DEFERRED PER PROVISION"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_5>
+    <Field_6 name="SumOf&lt;D&gt; 12/31/2007 TAX RETURN SCHEDULE M">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;D&gt; 12/31/2007 TAX RETURN SCHEDULE M"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="7"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;D&gt; 12/31/2007 TAX RETURN SCHEDULE M"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_6>
+    <Field_7 name="SumOf&lt;E&gt; 12/31/2007 TRUE-UP">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;E&gt; 12/31/2007 TRUE-UP"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="8"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;E&gt; 12/31/2007 TRUE-UP"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_7>
+    <Field_8 name="SumOf&lt;F&gt; OTHER ADJUSTMENTS/TRANSFERS">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;F&gt; OTHER ADJUSTMENTS/TRANSFERS"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="9"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;F&gt; OTHER ADJUSTMENTS/TRANSFERS"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_8>
+    <Field_9 name="SumOf&lt;G&gt; 12/31/2007 ROLLED DEFERRED">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;G&gt; 12/31/2007 ROLLED DEFERRED"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="10"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;G&gt; 12/31/2007 ROLLED DEFERRED"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_9>
+    <Field_10 name="SumOf&lt;H&gt; 12/31/2007 TAX BASIS">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;H&gt; 12/31/2007 TAX BASIS"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="11"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;H&gt; 12/31/2007 TAX BASIS"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_10>
+    <Field_11 name="SumOf&lt;I&gt; 12/31/2007 BOOK BASIS">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;I&gt; 12/31/2007 BOOK BASIS"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="12"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;I&gt; 12/31/2007 BOOK BASIS"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_11>
+    <Field_12 name="SumOf&lt;J&gt; 12/31/2007 DEFERRED">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;J&gt; 12/31/2007 DEFERRED"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="13"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;J&gt; 12/31/2007 DEFERRED"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_12>
+    <Field_13 name="SumOf&lt;K&gt; DIFFERENCE">
+      <Value name="Value" type="7"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="7"/>
+      <Name name="Name" type="12" value="SumOf&lt;K&gt; DIFFERENCE"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="14"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="SumOf&lt;K&gt; DIFFERENCE"/>
+      <SourceTable name="SourceTable" type="12" value="QALL"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="7"/>
+      <VisibleValue name="VisibleValue" type="7"/>
+    </Field_13>
+  </FieldDefs>
+</TableDef>
